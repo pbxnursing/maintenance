@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f8fafc">
+  <meta name="description" content="PBX Nursing is temporarily under maintenance.">
+  <title>Website under maintenance | PBX Nursing</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            base: { 100: '#ffffff', 200: '#f8fafc', 300: '#e2e8f0', content: '#1e293b' },
+            neutral: { DEFAULT: '#0f172a', content: '#f8fafc' },
+            primary: { DEFAULT: '#2563eb', content: '#ffffff' },
+            secondary: { DEFAULT: '#2563eb', content: '#ffffff' }
+          },
+          fontFamily: {
+            sans: ['Inter', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Helvetica', 'Arial', 'sans-serif']
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="min-h-screen bg-base-100 font-sans text-base-content">
+  <div class="landing-page min-h-screen overflow-x-hidden" data-theme="nord">
+    <header class="sticky top-0 z-40 border-b border-base-300 bg-base-100/95 backdrop-blur-md">
+      <div class="mx-auto flex w-full max-w-6xl items-center justify-center gap-1 px-4 py-2 md:px-8">
+        <div class="min-w-0">
+          <a class="inline-flex min-w-0 items-center gap-3 no-underline" href="/" aria-label="PBX Nursing home">
+            <img class="h-14 w-auto max-w-20 flex-none object-contain sm:h-20 sm:max-w-32" src="client/src/assets/pbx-logo.png" alt="PBX Nursing logo">
+          </a>
+        </div>
+      </div>
+    </header>
+    <main class="grid min-h-[calc(100vh-5.5rem)] place-items-center px-6">
+      <div>
+        <h1 class="text-center text-3xl font-black tracking-tight text-base-content md:text-4xl">Website under maintenance</h1>
+      <p class="mt-3 text-center text-sm text-base-content/70">We are sorry for the inconvenience. Please check back again soon.</p>
+      </div>
+    </main>
+  </div>
+</body>
+</html>
